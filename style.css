@@ -199,3 +199,21 @@ input[type="email"]:focus, input[type="text"]:focus, textarea[type="text"]:focus
     .skillparent { grid-template-columns: repeat(3, 1fr); }
   }
 
+  @media (min-width: 1200px) {
+    .abouttext {
+      font-size: 27px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .abouttext {
+      font-size: 23px;
+    }
+  }
+ 
+  @media (max-width: 600px) {
+    .abouttext {
+      font-size: 20px;
+    }
+  }
+
