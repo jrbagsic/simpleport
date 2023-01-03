@@ -57,7 +57,7 @@ li:hover::after {
 }
 /* text css above hero image*/
 .hero_title {
-    font-size: 10rem;
+    font-size: 12vw;
     text-shadow: 0px 1px 4px #bababa;
 }
 .hero-text {
@@ -81,7 +81,7 @@ li:hover::after {
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    font-size: 3em;
+    font-size: 3vw;
 }
 
 @keyframes typing {
@@ -130,7 +130,7 @@ from {
 .card-text {
     font-size: 20px;
 }
-.card:hover .skillsIcon {
+.skillsec:hover .skillsIcon {
     color: #1811ec;
 }
 /* social media icons styling */
@@ -181,4 +181,21 @@ input[type="email"]:focus, input[type="text"]:focus, textarea[type="text"]:focus
     color: #ffffff;
  }
 
+  .skillsec {
+        background-color: #140E1A;
+        color: white;
+        padding: 3rem;
+        height: 16rem;
+  }
+  .skillparent {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+  }
+  @media (min-width: 600px) {
+    .skillparent { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .skillparent { grid-template-columns: repeat(3, 1fr); }
+  }
 
