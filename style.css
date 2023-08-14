@@ -76,7 +76,7 @@ li:hover::after {
 }
   
 .hero_desc {
-    width: 22ch;
+    width: 26ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
