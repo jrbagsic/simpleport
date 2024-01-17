@@ -201,13 +201,13 @@ input[type="email"]:focus, input[type="text"]:focus, textarea[type="text"]:focus
 
   @media (min-width: 1200px) {
     .abouttext {
-      font-size: 27px;
+      font-size: 23px;
     }
   }
 
   @media (max-width: 900px) {
     .abouttext {
-      font-size: 23px;
+      font-size: 20px;
     }
   }
  
